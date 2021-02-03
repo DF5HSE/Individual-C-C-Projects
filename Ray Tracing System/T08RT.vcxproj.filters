@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MTH">
+      <UniqueIdentifier>{30b470aa-8467-4a22-b1f3-f78d455ce9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RT">
+      <UniqueIdentifier>{09207797-1535-4417-ab73-aa946d4c9c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN">
+      <UniqueIdentifier>{1333c8e6-d72b-483a-8e06-0e79ac88d02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RT\Shapes">
+      <UniqueIdentifier>{2b075893-eb8b-43c4-a33f-41825c1cea26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RT\Image">
+      <UniqueIdentifier>{1d2b815d-90c1-44b2-a753-9d54caab622c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RT\Light">
+      <UniqueIdentifier>{a065f002-8567-4db1-a5dd-331e79a83ba3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MTH\MTHDEF.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="WIN\WIN.H">
+      <Filter>Source Files\WIN</Filter>
+    </ClInclude>
+    <ClInclude Include="MTH\MATR.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="MTH\RAY.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\SHAPES.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\SPHERE.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\PLANE.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\BOX.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SCENE.H">
+      <Filter>Source Files\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="MTH\VEC.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="MTH\MTH.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="MTH\CAMERA.H">
+      <Filter>Source Files\MTH</Filter>
+    </ClInclude>
+    <ClInclude Include="DEF.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\IMAGE\IMAGE.H">
+      <Filter>Source Files\RT\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\FRAME.H">
+      <Filter>Source Files\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\RT.H">
+      <Filter>Source Files\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\LIGHT\LIGHT.H">
+      <Filter>Source Files\RT\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\IMAGE\IMAGE.H">
+      <Filter>Source Files\RT\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\TOR.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RT\SHAPES\QUADRIC.H">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WIN\WIN.CPP">
+      <Filter>Source Files\WIN</Filter>
+    </ClCompile>
+    <ClCompile Include="WIN\WINMSG.CPP">
+      <Filter>Source Files\WIN</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\RT.CPP">
+      <Filter>Source Files\RT</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\IMAGE\IMAGE.CPP">
+      <Filter>Source Files\RT\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\FRAME.CPP">
+      <Filter>Source Files\RT</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\SHAPES.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SCENE.CPP">
+      <Filter>Source Files\RT</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\SPHERE.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\PLANE.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\LIGHT\LIGHT.CPP">
+      <Filter>Source Files\RT\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\BOX.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\TOR.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="RT\SHAPES\QUADRIC.CPP">
+      <Filter>Source Files\RT\Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
