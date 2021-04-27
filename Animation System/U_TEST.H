@@ -36,8 +36,8 @@ namespace figl
     */
     unit_test( VOID )
     {
-      Cow.Load("Models/cow.g3dm", matr::Identity());
-      //Cow.Load("Models/x6.g3dm", matr::Identity());
+      //Cow.Load("Models/cow.g3dm", matr::Identity());
+      Cow.Load("Models/x6.g3dm", matr::Identity());
       Car.Load("Models/camaro69.g3dm", matr::Identity());
     } /* End of 'unit_test' function */
 
